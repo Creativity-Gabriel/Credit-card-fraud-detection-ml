@@ -3,11 +3,30 @@ Machine learning project for detecting fraudulent credit card transactions using
 # Visual Results
 
 ### LOGISTIC REGRESSION vs RANDOM FOREST
+<img width="1089" height="590" alt="image" src="https://github.com/user-attachments/assets/2d74da17-dcaf-4440-bd3f-adad8b6b970d" />
 
-![Model Comparison](LOGISTIC REGRESSION VS RANDOM FOREST.png)
+Key values shown:
+
+•	Logistic Regression:
+
+Precision 0.056, Recall 0.874, F1 0.106, ROC-AUC 0.965
+
+•	Random Forest: Precision 0.945, Recall 0.726, F1 0.821, ROC-AUC 0.939
+
+The above clearly shows the trade-off between catching fraud (Recall) and reducing false alerts (Precision).
+
+
 
 ### THRESHOLD vs BUSINESS COST
-![Model Comparison](THRESHOLD VS BUSINESS COST.png)
+
+<img width="1089" height="590" alt="image" src="https://github.com/user-attachments/assets/2fc19705-2c1c-471d-a584-66713be0aed9" />
+
+
+The chart shows how changing the **classification threshold** affects the estimated business cost.
+
+Using the ₦100,000 false-negative and ₦1,000 false-positive assumptions, the lowest tested cost is at a **0.90 threshold: about ₦1.82 million**.
+
+
 
 ### PROJECT OVERVIEW
 Credit Card Fraud Detection Using Machine Learning
