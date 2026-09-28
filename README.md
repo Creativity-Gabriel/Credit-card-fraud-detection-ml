@@ -26,6 +26,26 @@ The chart shows how changing the **classification threshold** affects the estima
 
 Using the ₦100,000 false-negative and ₦1,000 false-positive assumptions, the lowest tested cost is at a **0.90 threshold: about ₦1.82 million**.
 
+### RANDOM FOREST---TOP TEN FEATURE IMPORTANCE
+
+<img width="1085" height="590" alt="image" src="https://github.com/user-attachments/assets/026948f4-0ca5-4ca7-93d6-230eb8c99aae" />
+
+
+### CREDIT CARD FRAUD DETECTION--- CLASS DISTRIBUTION
+
+<img width="889" height="590" alt="image" src="https://github.com/user-attachments/assets/dbfb97ae-2c36-435d-a321-4458cb131ff5" />
+
+
+### Class Distribution — Key takeaway
+
+* **Legitimate transactions:** 283,253 (**99.83%**)
+  
+* **Fraudulent transactions:** 473 (**0.17%**)
+
+The visual clearly demonstrates the **severe class imbalance** in the dataset, which is why accuracy alone would be misleading and why we focused on **Precision, Recall, F1-score, ROC-AUC, and threshold analysis**.
+
+
+
 
 
 ### PROJECT OVERVIEW
